@@ -655,6 +655,7 @@ p {
     display: block; /* Display phone number in a block to make it easier to read on smaller screens */
     white-space: nowrap; /* Prevent line breaks */
   }
+}
   
 select {
   -webkit-appearance: none;
