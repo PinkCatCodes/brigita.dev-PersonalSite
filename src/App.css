@@ -649,6 +649,13 @@ p {
   border: 1.333px solid var(--primary);
   background: var(--white);
 }
+
+@media (max-width: 768px) {
+  .phone-number {
+    display: block; /* Display phone number in a block to make it easier to read on smaller screens */
+    white-space: nowrap; /* Prevent line breaks */
+  }
+  
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
