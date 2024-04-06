@@ -48,12 +48,12 @@ export default function ContactMe() {
           <h5 className="mb-3">
             {" "}
             <PhoneIcon />{" "}
-            <span style={{ marginLeft: "0.5rem" }}>+45 52 52 88 32</span>
+            <span className="phone-number" style={{ marginLeft: "0.5rem" }}>+45 52 52 88 32</span>
           </h5>
           <h5 className="mb-3">
             {" "}
             <EmailIcon />{" "}
-            <span style={{ marginLeft: "0.5rem" }}>brigita.ce@gmail.com</span>
+            <span className="phone-number" style={{ marginLeft: "0.5rem" }}>brigita.ce@gmail.com</span>
           </h5>
         </div>
       </div>
