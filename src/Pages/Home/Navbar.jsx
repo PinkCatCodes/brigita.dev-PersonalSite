@@ -40,7 +40,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div className="logo">
-        {/*<img src="./img/Brigita.DEV (4c).png" alt="Logoipsum"/>
+        {/*<img src="./img/Brigita.DEV (4c).png" alt="logo"/>
                style={{ transform: 'scaleX(-1)' }} turnes the letter to oppisite direction
                 */}
 
