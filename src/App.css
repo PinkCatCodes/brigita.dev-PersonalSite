@@ -314,10 +314,7 @@ p {
   width: 100%; /* Utilize full container width for better responsiveness */
   margin: 0 auto;
 }
-@media screen and (max-width: 768px) {
-  .skills--section--container   {
-    padding: 0  80px;;/* Adjust the right margin for smaller screens */
-  }}
+
 
 .skills--section--card {
   display: flex;
