@@ -507,9 +507,9 @@ p {
 @media (max-width: 600px) {
   .portfolio--section--card {
     min-height: 500px;
-   
+    margin: 0.1em;
     flex-grow: 1; /* Ensure it grows to take available space */
-    width: auto; /* Adjust width to be responsive */
+    width: 100%; /* Adjust width to be responsive */
    
   }
 }
