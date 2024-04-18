@@ -509,7 +509,7 @@ p {
   .portfolio--section--card {
     min-height: 500px;
     margin: 0.1em;  /* Smaller margin for more width utilization */
-    width: calc(100% - 0.2em); /* Adjust width calculation to consider margin */
+    width: calc(100% - 0.1em); /* Adjust width calculation to consider margin */
     padding: 0; 
    
   }
