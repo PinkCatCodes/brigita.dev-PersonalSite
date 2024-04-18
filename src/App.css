@@ -277,7 +277,7 @@ p {
 .skills--section {
   display: flex;
   /* padding creates a space around skill sction*/
-  
+  padding: 80px 80px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -313,6 +313,11 @@ p {
   grid-template-columns: repeat(5, minmax(150px, 1fr));
   width: 100%; /* Utilize full container width for better responsiveness */
   margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .skills--section--container {
+    padding: 0px 80px;/*112px 85px*/
+  }
 }
 
 
