@@ -27,6 +27,7 @@ h2 {
   line-height: 34px;
 }
 
+
 h1,
 h2,
 h3,
@@ -109,6 +110,7 @@ p {
 }
 /* Global CSS Ends */
 /* Main Headings */
+
 
 /* Pragraphs text large medium small */
 /* Body 1 */
@@ -216,6 +218,7 @@ p {
 
 /* Navbar Styler Ends */
 
+
 /* Hero Section Style */
 
 .hero--section {
@@ -268,17 +271,18 @@ p {
 /* Hero Section Style Ends */
 
 
+
 /* Skills Section Style */
 
 .skills--section {
   display: flex;
   /* padding creates a space around skill sction*/
-  padding: 112px 85px;
+  padding: 80px 85px;/*112px 85px*/
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   /*gap adds space below my expertise*/
- gap:30px
+ gap:50px
   
 }
 
@@ -288,6 +292,7 @@ p {
   align-items: flex-start;
   gap: 21.3px;
 }
+
 
 .skills--section--heading {
   color: var(--heading-color);
@@ -309,7 +314,7 @@ p {
   width: 100%; /* Utilize full container width for better responsiveness */
   margin: 0 auto;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
   .skills--section--container   {
     padding: 0  80px;;/* Adjust the right margin for smaller screens */
   }}
@@ -373,7 +378,9 @@ p {
   }
 }
 
+
 /* Skills Style Ends */
+
 
 
 /* About Us */
@@ -385,6 +392,7 @@ p {
   gap: 3rem;
   grid-template-columns: repeat(2, 1fr);
   
+
 
   /* Responsive adjustments */
   @media (max-width: 768px) {
@@ -412,6 +420,7 @@ p {
   align-items: flex-start;
   gap: 1.5rem;
 
+
  
 }
 .about--section--heading {
@@ -426,7 +435,9 @@ p {
 }
 
 
+
 /* About Us Ends */
+
 
 
 
@@ -458,12 +469,12 @@ p {
   justify-content: center;
   gap: 42px;
   width: 100%;
- /* margin:auto;*/
+ margin:auto;
 }
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
-  /*height:auto;*/
+  height:auto;
   
 }
 .portfolio--section--img > img {
@@ -473,14 +484,14 @@ p {
 .portfolio--section--card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;/*strech*/
+  align-items: strech;
   gap: 32px;
-  flex: 1 0 0;/*110*/
+  flex: 1 1 0;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   border: 12px;
   min-height: 600px;
-  margin: auto;/*1em;*/
+  margin: 1em;
 }
 
 /* Medium devices (tablets) */
@@ -496,6 +507,7 @@ p {
     min-height: 500px;
   }
 }
+
 
 .portfolio--link {
   text-decoration: none;
@@ -548,6 +560,7 @@ p {
 }
 /* Portfolio Ends */
 
+
 /* Testimonial */
 .testimonial--section {
   display: flex;
@@ -592,6 +605,7 @@ p {
 }
 /* Testimonial Ends */
 
+
 /* Contact Starts */
 .contact--section {
   display: flex;
@@ -612,6 +626,7 @@ p {
   font-size: 18px;
   gap: 20px;/**?pushed phone and email apart by */
 }
+
 
 .contact--form--container {
   display: grid;
@@ -681,6 +696,7 @@ input[type="checkbox"] {
 }
 /* Contact End */
 
+
 /* Footer Starts */
 
 .footer--container {
@@ -749,6 +765,7 @@ input[type="checkbox"] {
     line-height: 40px;
   }
 }
+
 
 
 @media only screen and (max-width: 1600px) {
@@ -927,4 +944,3 @@ input[type="checkbox"] {
 }
 
 /* Responsive Screens Ends*/
-
