@@ -277,14 +277,15 @@ p {
 .skills--section {
   display: flex;
   /* padding creates a space around skill sction*/
-  padding: 80px 85px;
+  padding: 112px 85px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /*gap adds space belo my expertise*/
-  gap: 50px;
+  /*gap adds space below my expertise*/
+ gap:30px
   
 }
+
 .skills--container {
   display: flex;
   flex-direction: column;
@@ -311,8 +312,13 @@ p {
   /*grid-template-columns: repeat(5, 1fr);*/
   grid-template-columns: repeat(5, minmax(150px, 1fr));
   width: 100%; /* Utilize full container width for better responsiveness */
- /* margin: 0 auto;*/
+  margin: 0 auto;
 }
+@media screen and (max-width: 700px) {
+  .skills--section--container   {
+    padding: 0  80px;;/* Adjust the right margin for smaller screens */
+  }}
+
 .skills--section--card {
   display: flex;
   padding: 2rem;
@@ -363,7 +369,7 @@ p {
 
 @media screen and (max-width: 768px) {
   .skills--section--container {
-    grid-template-columns: repeat(2, minmax(150px, 1fr)); /* Display 2 columns on smaller screens */
+    grid-template-columns: repeat(2, minmax(150x, 1fr)); /* Display 2 columns on smaller screens */
   }
 }
 @media screen and (max-width: 1280px) {
@@ -463,12 +469,12 @@ p {
   justify-content: center;
   gap: 42px;
   width: 100%;
-  margin:auto;
+ /* margin:auto;*/
 }
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
-  height:auto;
+  /*height:auto;*/
   
 }
 .portfolio--section--img > img {
@@ -478,14 +484,14 @@ p {
 .portfolio--section--card {
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: flex-start;/*strech*/
   gap: 32px;
-  flex: 1 1 0;
+  flex: 1 0 0;/*110*/
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   border: 12px;
   min-height: 600px;
-  margin: 1em;
+  margin: auto;/*1em;*/
 }
 
 /* Medium devices (tablets) */
@@ -498,7 +504,7 @@ p {
 /* Small devices (phones) */
 @media (max-width: 768px) {
   .portfolio--section--card {
-    min-height: 650px;
+    min-height: 500px;
   }
 }
 
@@ -521,9 +527,13 @@ p {
   padding: 0 20px;
   flex-direction: column;
   align-items: flex-start;
+  align-self: stretch;
   /*gap: 32px; i think i dont need*/
-  
+
 }
+
+  
+  
 .portfolio--link a,link:visited,link:active {
   text-decoration: none;
   color:#7b1193;
@@ -649,14 +659,12 @@ p {
   border: 1.333px solid var(--primary);
   background: var(--white);
 }
-
 @media (max-width: 768px) {
   .phone-number {
     display: block; /* Display phone number in a block to make it easier to read on smaller screens */
     white-space: nowrap; /* Prevent line breaks */
   }
 }
-  
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
