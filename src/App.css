@@ -282,7 +282,7 @@ p {
   justify-content: center;
   align-items: flex-start;
   /*gap adds space below my expertise*/
- gap:50px
+ gap:50px;
   
 }
 
@@ -316,7 +316,7 @@ p {
 }
 @media screen and (max-width: 600px) {
   .skills--section--container {
-    padding: 0px 80px;/*112px 85px*/
+    padding: 0px 60px;
   }
 }
 
