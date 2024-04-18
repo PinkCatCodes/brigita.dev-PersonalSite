@@ -491,7 +491,7 @@ p {
   flex: 1 1 0;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
-  border: 12px solid transparent;
+  border: 12px;
   min-height: 600px;
   margin: 1em;
  
