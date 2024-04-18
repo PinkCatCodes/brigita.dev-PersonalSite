@@ -471,7 +471,7 @@ p {
   justify-content: center;
   gap: 42px;
   width: 100%;
- margin:auto;
+  margin:auto;
 }
 .portfolio--section--img {
   border-radius: 8px;
@@ -506,7 +506,11 @@ p {
 /* Small devices (phones) */
 @media (max-width: 600px) {
   .portfolio--section--card {
-    min-height: 455px;
+    min-height: 460px;
+    margin: 0.5em; /* Reduced margin for more width space */
+    flex-grow: 1; /* Ensure it grows to take available space */
+    width: auto; /* Adjust width to be responsive */
+    max-width: calc(100% - 1em); /* Subtract margin from 100% width to avoid overflow */
   }
 }
 
