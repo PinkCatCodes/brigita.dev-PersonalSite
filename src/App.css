@@ -506,7 +506,7 @@ p {
 /* Small devices (phones) */
 @media (max-width: 600px) {
   .portfolio--section--card {
-    min-height: 450px;
+    min-height: 455px;
   }
 }
 
