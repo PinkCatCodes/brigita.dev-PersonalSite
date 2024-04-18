@@ -27,7 +27,6 @@ h2 {
   line-height: 34px;
 }
 
-
 h1,
 h2,
 h3,
@@ -110,7 +109,6 @@ p {
 }
 /* Global CSS Ends */
 /* Main Headings */
-
 
 /* Pragraphs text large medium small */
 /* Body 1 */
@@ -218,7 +216,6 @@ p {
 
 /* Navbar Styler Ends */
 
-
 /* Hero Section Style */
 
 .hero--section {
@@ -271,7 +268,6 @@ p {
 /* Hero Section Style Ends */
 
 
-
 /* Skills Section Style */
 
 .skills--section {
@@ -293,7 +289,6 @@ p {
   gap: 21.3px;
 }
 
-
 .skills--section--heading {
   color: var(--heading-color);
   font-size: 34px;
@@ -314,9 +309,9 @@ p {
   width: 100%; /* Utilize full container width for better responsiveness */
   margin: 0 auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .skills--section--container   {
-    padding: 0  60px;;/* Adjust the right margin for smaller screens */
+    padding: 0  80px;;/* Adjust the right margin for smaller screens */
   }}
 
 .skills--section--card {
@@ -378,9 +373,7 @@ p {
   }
 }
 
-
 /* Skills Style Ends */
-
 
 
 /* About Us */
@@ -392,7 +385,6 @@ p {
   gap: 3rem;
   grid-template-columns: repeat(2, 1fr);
   
-
 
   /* Responsive adjustments */
   @media (max-width: 768px) {
@@ -420,7 +412,6 @@ p {
   align-items: flex-start;
   gap: 1.5rem;
 
-
  
 }
 .about--section--heading {
@@ -435,9 +426,7 @@ p {
 }
 
 
-
 /* About Us Ends */
-
 
 
 
@@ -508,7 +497,6 @@ p {
   }
 }
 
-
 .portfolio--link {
   text-decoration: none;
   display: flex;
@@ -560,7 +548,6 @@ p {
 }
 /* Portfolio Ends */
 
-
 /* Testimonial */
 .testimonial--section {
   display: flex;
@@ -605,7 +592,6 @@ p {
 }
 /* Testimonial Ends */
 
-
 /* Contact Starts */
 .contact--section {
   display: flex;
@@ -626,7 +612,6 @@ p {
   font-size: 18px;
   gap: 20px;/**?pushed phone and email apart by */
 }
-
 
 .contact--form--container {
   display: grid;
@@ -696,7 +681,6 @@ input[type="checkbox"] {
 }
 /* Contact End */
 
-
 /* Footer Starts */
 
 .footer--container {
@@ -765,7 +749,6 @@ input[type="checkbox"] {
     line-height: 40px;
   }
 }
-
 
 
 @media only screen and (max-width: 1600px) {
@@ -944,3 +927,4 @@ input[type="checkbox"] {
 }
 
 /* Responsive Screens Ends*/
+
