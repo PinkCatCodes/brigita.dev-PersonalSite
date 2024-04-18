@@ -277,7 +277,7 @@ p {
 .skills--section {
   display: flex;
   /* padding creates a space around skill sction*/
-  padding: 80px 85px;/*112px 85px*/
+  
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -290,7 +290,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 21.3px;
+  gap: 21.px;
 }
 
 
